@@ -1,15 +1,13 @@
+// =================================================
+// RTES Final Project: Tremor Detection and Light Control
+// Authors: 1. Matthew Zhou (hz3463)
+//          2. Valerie Ocampo (vro2010)
+//          3. Anthony D. Martinez (adm8333)
+// =================================================
+
 #include <mbed.h>
 #include <math.h>
 #include <stddef.h>
-
-// =================================================
-// * Recitation 5: SPI and Gyroscope *
-// =================================================
-
-// TODOs:
-// [1] Get started with an SPI object instance and connect to the Gyroscope!
-// [2] Read the XYZ axis from the Gyroscope and Visualize on the Teleplot.
-// [3] Fetching Data from the sensor via Polling vs Interrupt ?
 
 // Define control register addresses and their configurations
 #define CTRL_REG1 0x20
